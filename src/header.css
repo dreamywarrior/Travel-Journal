@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.WebApp--Earth{
+  position: relative;
+  width: 30px;
+  height: 30px;
+  background-size: 300px;
+  background-image: url("https://vignette.wikia.nocookie.net/marvelcrossroads/images/7/71/Earth-map.jpg/revision/latest?cb=20180513012905");
+  border-radius: 100%;
+  background-size: cover;
+  animation: spin 25s linear infinite;
+  margin-top:auto;
+  margin-bottom:auto;
+  margin-left:auto;
+}
+
+@keyframes spin {
+  0% {background-position: 0%;}
+  50% {background-position: 100%;}
+  100% {background-position: 200%;}
+}
+
+.WebApp--Header{
+  display: flex;
+  gap: 10px;
+  flex-direction: row;
+  position: relative;
+  width: 100%;
+  height: 55px;
+  left: 0px;
+  top: 0px;
+  background: #F55A5A;
+}
+
+.WebApp--Header--Name{
+  margin-right:auto;
+  margin-top:auto;
+  margin-bottom: auto;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: -0.075em;
+  text-align: left;
+  color:white;
+  height: 16px;
+  border-radius: nullpx;
+
+}
