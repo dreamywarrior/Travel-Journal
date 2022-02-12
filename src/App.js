@@ -12,7 +12,9 @@ export default function App() {
   return (
     <div className="WebApp">
       <Header />
+      <div className="Card--list">
       {cards}
+      </div>
     </div>
   );
 }

@@ -12,6 +12,10 @@ code {
     monospace;
 }
 
+html{
+  background-image: url("../public/pictures/travel-background.jpg");
+}
+
 .WebApp--Earth{
   position: relative;
   width: 30px;
@@ -20,7 +24,8 @@ code {
   background-image: url("https://vignette.wikia.nocookie.net/marvelcrossroads/images/7/71/Earth-map.jpg/revision/latest?cb=20180513012905");
   border-radius: 100%;
   background-size: cover;
-  animation: spin 25s linear infinite;
+  filter: brightness(110%);
+  animation: spin 10s linear infinite;
   margin-top:auto;
   margin-bottom:auto;
   margin-left:auto;
@@ -37,11 +42,11 @@ code {
   gap: 10px;
   flex-direction: row;
   position: relative;
-  width: 100%;
   height: 55px;
   left: 0px;
   top: 0px;
   background: #F55A5A;
+  margin-bottom: 80px;
 }
 
 .WebApp--Header--Name{

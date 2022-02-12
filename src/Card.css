@@ -1,0 +1,129 @@
+.Webpage--Card{
+    flex: 0 0 auto;         
+    display: flex;          
+    flex-direction: row; 
+    height: 180px;
+    margin:auto;
+    margin-bottom: 60px;
+    padding: 20px;
+    max-width:800px;
+    min-width: 600px;
+    background-color: white;
+    transition: 0.5s all;
+}
+
+@supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
+    .Webpage--Card {
+      -webkit-backdrop-filter: blur(10px);
+      backdrop-filter: blur(10px);
+      background-color: rgba(149, 216, 255, 0.5);  
+    }
+  }
+
+.Card--list{
+    margin-right:auto;
+    margin-left:10px;
+    align-content: center;
+}
+
+.Webpage--Card:hover{
+    box-shadow: 1px 1px 0px rgba(153, 153, 153, 0.637),
+                2px 2px 0px rgba(153, 153, 153, 0.637),
+                3px 3px 0px rgba(153, 153, 153, 0.637),
+                4px 4px 0px rgba(153, 153, 153, 0.637),
+                5px 5px 0px rgba(153, 153, 153, 0.637);
+}
+
+.Webpage--Location--icon{
+    width:12.5px;
+    height: 20px;
+    margin-top:auto;
+    margin-bottom: auto;
+}
+
+.Webpage--place--image{
+    position: relative;
+    object-fit: contain;
+    height:180px;
+    border-radius: 5px;
+    margin-right:45px;
+    filter: grayscale(90%);
+    transition: 1s all;
+}
+
+.Webpage--place--image:hover{
+    filter: grayscale(0%) brightness(110%);
+}
+
+
+.Webpage--Content{
+    display:flex;
+    flex-direction:column;
+    height: 180px;
+    margin-right: 50px;
+    justify-content: center;
+}
+
+.Webpage--Content--Level1{
+    display:flex;
+    flex-direction:row;
+    gap:4px;
+    margin-top:-12px;
+    margin-left:2px;
+}
+
+.Webpage--Maps{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 23px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11.5px;
+    line-height: 12px;
+    text-decoration-line: underline;
+    color: #39383b;
+}
+
+.Webpage--Title{
+    margin-top:-10px;
+    margin-bottom: 7px;
+    font-family: Inter;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.Webpage--description{
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+
+.Webpage--Country{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 12px;
+    letter-spacing: 0.01em;
+    color: #2B283A;
+}
+
+.Webpage--Dates{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 12px;
+    color: #2B283A;
+    margin-top: 10px;
+}
