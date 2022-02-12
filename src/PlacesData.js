@@ -1,4 +1,4 @@
-export default [
+const placesData = [
     {
         key: 1,
         title: "Mount Fuji",
@@ -39,4 +39,6 @@ export default [
         description: "The Atomium was constructed for the first post-war universal world exhibition (EXPO 58) The nine spheres represent an iron crystal magnified 165 billion times. They represent the faith one had in the power of science and moreover in nuclear power.",
         imageUrl: "https://images.unsplash.com/photo-1642291373721-8431835753ea?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
     }
-]
+];
+
+export default placesData;
